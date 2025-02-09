@@ -20,6 +20,7 @@ public class AppiumBasics extends BaseTest{
 //		String alertTitle = driver.findElement(By.id("android:id/alertTitle")).getText();
 //		Assert.assertEquals(alertTitle, "WiFi settings");	
 		driver.findElement(By.id("android:id/edit")).sendKeys("Anil Wifi");
+		//anil
 		
 		driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
 		
